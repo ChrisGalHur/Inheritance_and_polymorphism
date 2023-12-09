@@ -1,52 +1,21 @@
 package org.inheritance_and_polymorphism;
 
-import org.inheritance_and_polymorphism.exercise_one.ExerciseOne;
-import org.inheritance_and_polymorphism.exercise_two.ExerciseTwo;
+import org.inheritance_and_polymorphism.exercise_1.ExerciseOne;
+import org.inheritance_and_polymorphism.exercise_2.ExerciseTwo;
 
 /**
- * This class is used to execute the exercises of the unit: Inheritance and polymorphism
+ * This class is used to execute the exercises of the unit: Inheritance and polymorphism<br>
  * <p>
- * Exercise 1
- *
+ * Exercise 1<br>
+ * Demonstration of static and initialization blocks.<br>
  * <p>
- * In this exercise I was asked to create an instrument class:
- * - Subclasses string, wind and percussion
- * - Attributes name and price
- * - Method play() abstract that prints to console "This is sounding an instrument of [subclass]"
- * </p>
- *
+ * Exercise 2<br>
+ * Demonstration of static, final and static final attributes and static and non-static methods.<br>
  * <p>
- * The loading process only takes place once and I have to demonstrate that the load can be caused
- * by the creation of the first instance of this class or by accessing a static member of it.
- * </p>
- *
- * Exercise 2
- *
- * <p>
- * I have to create a "Car" class:
- * - Attributes brand, model power
- * - brand: static final
- * - model: static
- * - power: final
- * </p>
- *
- * <p>
- * I have to demonstrate the difference between the three types of attributes and find out if any
- * can be initialized in the constructor.
- * </p>
- *
- * <p>
- * Then I have to add two methods:
- * - static brake() that has to print to console "The vehicle is braking"
- * - non-static accelerate() that has to print to console "The vehicle is accelerating"
- * </p>
- *
- * <p>
- * I have to demonstrate how to invoke the static and non-static method from the main class.
- * </p>
- *
+ * @see org.inheritance_and_polymorphism.exercise_1.ExerciseOne
+ * @see org.inheritance_and_polymorphism.exercise_2.ExerciseTwo
  * @author Christian Gálvez Hurtado
- * @version 1.0 09/12/2023
+ * @version 2.0 09/12/2023
  */
 
 public class Main {
@@ -58,14 +27,46 @@ public class Main {
      */
     public static void main(String[] args) {
 
-        /**
-         * Call a method from the ExerciseOne class to execute the first exercise.
-         */
-        ExerciseOne.executeExerciseOne();
+        executeExerciseOne();
+        executeExerciseTwo();
+    }
 
-        /**
-         * Call a method from the ExerciseTwo class to execute the second exercise.
-         */
-        ExerciseTwo.executeExerciseTwo();
+    /**
+     * Call a method from the ExerciseOne class to execute the first exercise.
+     * <p>
+     * In this exercise I was asked to create an instrument class:<br>
+     * - Subclasses string, wind and percussion<br>
+     * - Attributes name and price<br>
+     * - Method play() abstract that prints to console "This is sounding an instrument of [subclass]"*
+     * <p>
+     * The loading process only takes place once and I have to demonstrate that the load can be caused
+     * by the creation of the first instance of this class or by accessing a static member of it.
+     * @see org.inheritance_and_polymorphism.exercise_1.ExerciseOne
+     */
+    public static void executeExerciseOne() {
+        ExerciseOne.execute();
+    }
+
+    /**
+     * Call a method from the ExerciseTwo class to execute the second exercise.
+     * <p>
+     * I have to create a "Car" class:<br>
+     * - Attributes brand, model power<br>
+     * - brand: static final<br>
+     * - model: static<br>
+     * - power: final<br>
+     * <p>
+     * I have to demonstrate the difference between the three types of attributes and find out if any
+     * can be initialized in the constructor.
+     * <p>
+     * Then I have to add two methods:<br>
+     * - static brake() that has to print to console "The vehicle is braking"<br>
+     * - non-static accelerate() that has to print to console "The vehicle is accelerating"
+     * <p>
+     * I have to demonstrate how to invoke the static and non-static method from the main class.
+     * @see org.inheritance_and_polymorphism.exercise_2.ExerciseTwo
+     */
+    public static void executeExerciseTwo() {
+        ExerciseTwo.execute();
     }
 }

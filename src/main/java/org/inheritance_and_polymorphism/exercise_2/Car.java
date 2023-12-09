@@ -1,4 +1,4 @@
-package org.inheritance_and_polymorphism.exercise_two;
+package org.inheritance_and_polymorphism.exercise_2;
 
 /**
  * Class that represents a Car entity.

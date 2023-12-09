@@ -1,4 +1,4 @@
-package org.inheritance_and_polymorphism.exercise_two;
+package org.inheritance_and_polymorphism.exercise_2;
 
 /**
  * This class represents the second exercise of the first practice of the subject Inheritance and Polymorphism in Java.
@@ -14,7 +14,7 @@ public class ExerciseTwo {
      * It creates objects of the class Car and calls their methods.
      * I demonstrate the difference of types of attributes and how to invoke the static and non-static methods.
      */
-    public static void executeExerciseTwo(){
+    public static void execute(){
 
         System.out.println("\n ---EXERCISE TWO---\n");
 

@@ -1,4 +1,4 @@
-package org.inheritance_and_polymorphism.exercise_one;
+package org.inheritance_and_polymorphism.exercise_1;
 
 /**
  * This class represents a String instrument that extends from Instrument

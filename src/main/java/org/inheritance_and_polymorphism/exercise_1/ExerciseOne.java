@@ -1,9 +1,9 @@
-package org.inheritance_and_polymorphism.exercise_one;
+package org.inheritance_and_polymorphism.exercise_1;
 
 /**
  * This class represents the first exercise of the first practice of the subject Inheritance and Polymorphism in Java.
  *
- * @version 1.0 09/12/2021
+ * @version 1.0 09/12/2023
  * @author Christian Gálvez Hurtado
  */
 public class ExerciseOne {
@@ -15,7 +15,7 @@ public class ExerciseOne {
      * I demonstrate when you initialize an object of a subclass, the parent class is first loaded and initialized by using static and initializing blocks.
      *
      */
-    public static void executeExerciseOne(){
+    public static void execute(){
 
         System.out.println("\n ---EXERCISE ONE---\n");
 
