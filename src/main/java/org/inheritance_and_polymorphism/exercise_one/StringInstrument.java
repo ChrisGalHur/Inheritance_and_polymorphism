@@ -1,9 +1,9 @@
-package org.example.exercise_one;
+package org.inheritance_and_polymorphism.exercise_one;
 
 /**
  * This class represents a String instrument that extends from Instrument
  *
- * @version 1.0 07/12/2021
+ * @version 1.0 09/12/2021
  * @author Christian Gálvez Hurtado
  */
 public class StringInstrument extends Instrument{
@@ -28,7 +28,12 @@ public class StringInstrument extends Instrument{
         System.out.println("Initializing String class");
     }
 
-    //Constructors
+    /**
+     * Constructor class StringInstrument
+     *
+     * @param name Name of the StringInstrument
+     * @param price Price of the StringInstrument
+     */
     public StringInstrument(String name, double price) {
         super(name, price);
     }

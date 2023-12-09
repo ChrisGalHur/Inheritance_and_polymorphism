@@ -1,17 +1,17 @@
-package org.example.exercise_one;
+package org.inheritance_and_polymorphism.exercise_one;
 
 /**
  * This class represents the first exercise of the first practice of the subject Inheritance and Polymorphism in Java.
  *
- * @version 1.0 07/12/2021
+ * @version 1.0 09/12/2021
  * @author Christian Gálvez Hurtado
  */
 public class ExerciseOne {
 
     /**
      * This method is only used to execute the exercise one.
-     *
-     * It creates objects of the classes WindInstrument, StringInstrument and PercussionInstrument and calls their methods.
+     * <p>
+     * It creates objects of the classes WindInstrument, StringInstrument and PercussionInstrument and calls their methods.<br>
      * I demonstrate when you initialize an object of a subclass, the parent class is first loaded and initialized by using static and initializing blocks.
      *
      */

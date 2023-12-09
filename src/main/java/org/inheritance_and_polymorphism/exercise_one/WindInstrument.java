@@ -1,9 +1,9 @@
-package org.example.exercise_one;
+package org.inheritance_and_polymorphism.exercise_one;
 
 /**
  * This class represents a Wind instrument that extends from Instrument
  *
- * @version 1.0 07/12/2021
+ * @version 1.0 09/12/2021
  * @author Christian Gálvez Hurtado
  */
 public class WindInstrument extends Instrument{
@@ -26,7 +26,12 @@ public class WindInstrument extends Instrument{
         System.out.println("Initializing Wind class");
     }
 
-    //Constructors
+    /**
+     * Constructor class WindInstrument
+     *
+     * @param name Name of the WindInstrument
+     * @param price Price of the WindInstrument
+     */
     public WindInstrument(String name, double price) {
         super(name, price);
     }

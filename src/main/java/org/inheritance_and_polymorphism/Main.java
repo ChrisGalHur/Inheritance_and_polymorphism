@@ -1,10 +1,10 @@
-package org.example;
+package org.inheritance_and_polymorphism;
 
-import org.example.exercise_one.ExerciseOne;
-import org.example.exercise_two.ExerciseTwo;
+import org.inheritance_and_polymorphism.exercise_one.ExerciseOne;
+import org.inheritance_and_polymorphism.exercise_two.ExerciseTwo;
 
 /**
- * Inheritance and polymorphism
+ * This class is used to execute the exercises of the unit: Inheritance and polymorphism
  * <p>
  * Exercise 1
  *
@@ -46,7 +46,7 @@ import org.example.exercise_two.ExerciseTwo;
  * </p>
  *
  * @author Christian Gálvez Hurtado
- * @version 1.0
+ * @version 1.0 09/12/2023
  */
 
 public class Main {
